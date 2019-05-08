@@ -1,0 +1,22 @@
+{
+    "name": "antkaz/intercom-bot",
+    "description": "PHP bot to work with Intercom webhooks",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Kazarinov",
+            "email": "askazarinov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AntKaz\\Intercom\\": "src/"
+        }
+    }
+}
